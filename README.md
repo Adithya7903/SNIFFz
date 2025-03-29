@@ -33,6 +33,18 @@ cd final/test
 
 # Build the project
 cargo build --release
+
+
+
+# 1.To run snort
+C:\Snort\bin\snort -i 4 -c C:\Snort\etc\snort.conf -A console //  "" for wifi , 5 for ethernet ""
+
+# 2.To add wpcap to the current env
+$env:LIB="C:\Program Files\Npcap\Lib\x64;$env:LIB"
+
+# 3.To build the app
+cargo build
+
 ```
 
 ## Usage
