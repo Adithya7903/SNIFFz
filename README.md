@@ -17,8 +17,8 @@ SNIFFz is a Rust-based Host-based Intrusion Detection System designed to monitor
 ### Steps
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/HIDS-Tool.git
-cd HIDS-Tool
+git clone https://github.com/adithya7903/SNIFFz.git
+cd SNIFFz
 
 # Build the project
 cargo build --release
